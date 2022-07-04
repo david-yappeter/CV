@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #062f57;
+  --right-container-padding: 16px;
+}
+
+.cv-container {
+  max-width: 800px;
+  margin: 50px auto 0;
+  display: flex;
+}
+
+.left-side {
+  background-color: var(--primary);
+  flex-grow: 1;
+  flex-basis: 20%;
+}
+
+.right-side {
+  flex-grow: 1;
+  flex-basis: 80%;
+  padding: var(--right-container-padding);
+}
+
+.cv-name {
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.cv-sub {
+  color: var(--primary);
+  font-size: 20px;
+}
+
+.inline-icon-desc {
+  display: flex;
+}
+
+.inline-icon-desc:not(:last-child) {
+  margin-right: 4px;
+}
