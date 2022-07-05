@@ -55,16 +55,10 @@ ul.list-disc {
 }
 
 html {
-  --section-content-padding-left: calc(
-    var(--medium-icon-size) + var(--medium-x-spacer)
-  );
-  --section-dot-left: calc(
-    var(--medium-icon-size) * -1 / 2 - var(--medium-x-spacer)
-  );
+  --section-content-padding-left: calc(var(--medium-icon-size) + var(--medium-x-spacer));
+  --section-dot-left: calc(var(--medium-icon-size) * -1 / 2 - var(--medium-x-spacer));
   --section-line-left: calc(var(--medium-icon-size) / 2);
-  --work-exp-inner-list-padding-left: calc(
-    var(--medium-icon-size) / 2 + var(--medium-x-spacer)
-  );
+  --work-exp-inner-list-padding-left: calc(var(--medium-icon-size) / 2 + var(--medium-x-spacer));
 }
 
 html {
@@ -205,11 +199,11 @@ html {
   color: var(--primary);
 }
 
-#skill-items-container {
+.section-items-container {
   padding-left: var(--section-content-padding-left);
 }
 
-#skill-items-container > li:not(:last-child) {
+.section-items-container > li:not(:last-child) {
   margin-bottom: var(--medium-y-spacer);
 }
 
@@ -266,4 +260,9 @@ html {
 
 .link-hover:hover {
   color: var(--link-hover);
+}
+
+.bold-italic {
+  font-weight: bold;
+  font-style: italic;
 }
