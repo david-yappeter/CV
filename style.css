@@ -55,14 +55,24 @@ ul.list-disc {
 }
 
 html {
-  --section-content-padding-left: calc(var(--medium-icon-size) + var(--medium-x-spacer));
-  --section-dot-left: calc(var(--medium-icon-size) * -1 / 2 - var(--medium-x-spacer));
+  --section-content-padding-left: calc(
+    var(--medium-icon-size) + var(--medium-x-spacer)
+  );
+  --section-dot-left: calc(
+    var(--medium-icon-size) * -1 / 2 - var(--medium-x-spacer)
+  );
   --section-line-left: calc(var(--medium-icon-size) / 2);
-  --work-exp-inner-list-padding-left: calc(var(--medium-icon-size) / 2 + var(--medium-x-spacer));
+  --work-exp-inner-list-padding-left: calc(
+    var(--medium-icon-size) / 2 + var(--medium-x-spacer)
+  );
 }
 
 html {
   min-height: 100vh;
+}
+
+html,
+body {
   background-color: var(--background-color);
 }
 
