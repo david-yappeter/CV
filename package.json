@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "gulp clean && gulp pages && gulp styles",
+    "build": "gulp clean && gulp pages && gulp styles && node ./pdf-gen.js",
+    "pdf": "node ./pdf-gen.js",
     "gulp-clean": "gulp clean",
     "gulp-page": "gulp pages",
     "gulp-style": "gulp styles",
@@ -23,10 +24,13 @@
   "homepage": "https://github.com/david-yappeter/CV#readme",
   "dependencies": {
     "del": "^6.1.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-csso": "^4.0.1",
-    "gulp-htmlmin": "^5.0.1"
+    "gulp-htmlmin": "^5.0.1",
+    "html-pdf-node": "^1.0.8"
   },
   "browserslist": [
     "ie >= 10",
