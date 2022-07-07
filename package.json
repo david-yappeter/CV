@@ -8,8 +8,7 @@
     "pdf": "node ./pdf-gen.js",
     "gulp-clean": "gulp clean",
     "gulp-page": "gulp pages",
-    "gulp-style": "gulp styles",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gulp-style": "gulp styles"
   },
   "repository": {
     "type": "git",
