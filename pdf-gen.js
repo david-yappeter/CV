@@ -20,7 +20,7 @@ fs.writeFile(path.resolve(__dirname, "./public/index.html"), content, () => {
     const options = {
       // format: "A4", // width or height will be override
       width: "800px",
-      height: "2275px",
+      height: "2500px",
       path: "my-cv.pdf",
       printBackground: true, // to apply background colour
     };
