@@ -29,7 +29,8 @@
     "gulp-autoprefixer": "^8.0.0",
     "gulp-csso": "^4.0.1",
     "gulp-htmlmin": "^5.0.1",
-    "html-pdf-node": "^1.0.8"
+    "html-pdf-node": "^1.0.8",
+    "puppeteer": "^21.0.0"
   },
   "browserslist": [
     "ie >= 10",
